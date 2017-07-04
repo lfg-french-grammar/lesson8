@@ -1,0 +1,8 @@
+LITERARY FRENCH LEXICON (1.0)
+
+commence  V * { @(CTRL-V-C COMMENCER À) |
+		@(CTRL-V-C COMMENCER DE)}
+	      (^ AUX) = AVOIR
+	      @E-FORM-V.
+
+----

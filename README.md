@@ -1,4 +1,4 @@
-# book
+
 Lexical-functional grammar fragments, test sets, basic tokenizer, and basic morphological analyzer of French https://github.com/lfg-french-grammar/book
 
 Author: Leonel Figueiredo de Alencar <leonel.de.alencar@ufc.br> 

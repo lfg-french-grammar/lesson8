@@ -26,15 +26,33 @@ If you use one of the grammar fragments or tools from this site, please cite the
 
 Chapters 1, 2, 3, 4, 5, 6, and 8 of the book are exclusively or mainly devoted to theoretical aspects of LFG and its application to French syntax. The grammatical phenomena discussed in each chapter are implemented in the LFG/XLE grammar fragment described in detail in the chapter. Each chapter also contains a positive test file and a negative test file corresponding to the grammar fragment discussed in the chapter. Chapter 5 also presents a basic tokenizer, and chapter 7 describes the implementation of a morphological analyzer for some subgroups of verbs from the 1st conjugation. 
 
-Each chapter folder in https://github.com/lfg-french-grammar/book contains one or more grammar files, a positive test set, and a negative test set. Besides that, chapters 5 and 7 folders contain source files of the tokenizer and morphological analyzer, respectively. To be able to run the LFG/XLE grammar fragments of chapters 5, 6, and 8, these source files must be compiled into finite-state transducers with the Xerox Finite-State Tools (XFST):
+Each chapter folder in https://github.com/lfg-french-grammar contains one or more grammar files, a positive test set, and a negative test set. Besides that, chapters 5 and 7 folders contain source files of the tokenizer and morphological analyzer, respectively. To be able to run the LFG/XLE grammar fragments of chapters 5, 6, and 8, these source files must be compiled into finite-state transducers with the Xerox Finite-State Tools (XFST):
 
 http://web.stanford.edu/~laurik/fsmbook/home.html
 
 The finite-state transducers must be compiled with XFST in the operating system where you are running XLE. Edit the respective path in the morphology.lfg file to point to the location of each transducer file in your system.
 
-FrGramm is a significantly improved version of the grammar fragment from chapter 8. It is the subject of the following paper:
- 
-Alencar, Leonel Figueiredo de (2017). A computational implementation of periphrastic verb constructions in French. Alfa, Rev. Linguíst. (São José Rio Preto), 61. To appear. http://www.scielo.br/scielo.php?script=sci_serial&pid=1981-5794&lng=en&nrm=iso 
+FrGramm is a significantly improved version of the grammar fragment from chapter 8. It is the subject of the following paper, which was published bilingually in both English and Portuguese:
+
+ENGLISH VERSION OF THE PAPER
+
+APA style
+
+Alencar, Leonel Figueiredo de (2017). A computational implementation of periphrastic verb constructions in French. Alfa, 61 (2), 437-466.
+
+ABNT style
+
+Alencar, Leonel Figueiredo de. A computational implementation of periphrastic verb constructions in French. Alfa, São Paulo, v. 61, n. 2, p. 437-466, 2017.
+
+PORTUGUESE VERSION OF THE PAPER
+
+APA style
+
+Alencar, Leonel Figueiredo de (2017). Uma implementação computacional de construções verbais perifrásticas em francês. Alfa, 61 (2), 351-380.
+
+ABNT style
+
+Alencar, Leonel Figueiredo de. Uma implementação computacional de construções verbais perifrásticas em francês. Alfa, São Paulo, v. 61, n. 2, p. 351-380, 2017.
 
 You can download FrGramm from this link:
 
